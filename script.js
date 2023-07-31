@@ -1,5 +1,4 @@
 // JavaScript Code 
-<script>
     /* Function to fetch blog posts from an API (simulated here with an array) */
     function fetchBlogPosts() {
         return new Promise((resolve, reject) => {
@@ -42,4 +41,3 @@
 
     // Call the function to display blog posts when the page loads
     window.onload = displayBlogPosts;
-</script>
